@@ -1,5 +1,4 @@
-
-# Usage: Rscript run_fig1a.R analysis_ready.rds results
+# Usage: Rscript run_fig1a.R 
 
 library_path <- Sys.getenv("MDD_R_LIBRARY")
 if (nzchar(library_path)) .libPaths(c(library_path, .libPaths()))
